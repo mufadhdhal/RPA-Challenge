@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RPA Challenge</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1aa730f3-e4e3-434a-9d5e-a12110823f57</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86372310-2540-42ce-ab39-a2be879eeb31</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>629c84f3-6725-464b-be78-c46364dfc281</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30760d80-a668-4f3a-b8d1-3357525ab969</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>32977666-03ea-48b9-8df2-7e24e71a30c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>808fb331-3946-4346-a289-e2f39b24351a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02994559-9095-4bb2-85e2-cd86ecf916b0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>37cabb40-7425-4a14-8fc6-704dfd87b906</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'First Name'</defaultValue>
+      <description></description>
+      <id>86372310-2540-42ce-ab39-a2be879eeb31</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Last Name'</defaultValue>
+      <description></description>
+      <id>629c84f3-6725-464b-be78-c46364dfc281</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is Address'</defaultValue>
+      <description></description>
+      <id>30760d80-a668-4f3a-b8d1-3357525ab969</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is Company Name'</defaultValue>
+      <description></description>
+      <id>32977666-03ea-48b9-8df2-7e24e71a30c9</id>
+      <masked>false</masked>
+      <name>companyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'081234556788'</defaultValue>
+      <description></description>
+      <id>808fb331-3946-4346-a289-e2f39b24351a</id>
+      <masked>false</masked>
+      <name>phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Role in Company'</defaultValue>
+      <description></description>
+      <id>02994559-9095-4bb2-85e2-cd86ecf916b0</id>
+      <masked>false</masked>
+      <name>roleInCompany</name>
+   </variable>
+   <variable>
+      <defaultValue>'email@mail.com'</defaultValue>
+      <description></description>
+      <id>37cabb40-7425-4a14-8fc6-704dfd87b906</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
