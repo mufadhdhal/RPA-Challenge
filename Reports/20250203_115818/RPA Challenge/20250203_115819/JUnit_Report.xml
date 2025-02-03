@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RPA Challenge" time="59.856" tests="11" failures="0" errors="0">
+   <testsuite name="RPA Challenge" tests="11" failures="0" errors="0" time="59.856" skipped="0" timestamp="03-02-2025T11:58:21" hostname="mufadhal - DXN-QA-02" id="Test Suites/RPA Challenge">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\mufadhal\\git\\RPA-Challenge\\Reports\\20250203_115818\\RPA Challenge\\20250203_115819"/>
+         <property name="logFiles" value="C:\\Users\\mufadhal\\git\\RPA-Challenge\\Reports\\20250203_115818\\RPA Challenge\\20250203_115819\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mufadhal - DXN-QA-02"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="192.168.68.61"/>
+         <property name="sessionId" value="72408c394eea796d273484a31177f23d"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Open Browser" time="2.82" classname="Test Cases/Open Browser" status="PASSED">
+         <system-out><![CDATA[03-02-2025T11:58:21 - [TEST_CASE][PASSED] - Test Cases/Open Browser: Test Cases/Open Browser
+
+03-02-2025T11:58:22 - [TEST_STEP][PASSED] - openBrowser("https://rpachallenge.com/"): Browser is opened with url: 'https://rpachallenge.com/'
+
+03-02-2025T11:58:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-02-2025T11:58:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-02-2025T11:58:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rpachallenge.com/'
+
+03-02-2025T11:58:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-02-2025T11:58:24 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RPA Challenge" time="5.624" classname="Test Cases/RPA Challenge" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"John","lastName":"Smith","address":"98 North Road","phoneNumber":"40716543298","companyName":"IT Solutions","roleInCompany":"Analyst","email":"jsmith@itsolutions.co.uk"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2025T11:58:24 - [TEST_CASE][PASSED] - Test Cases/RPA Challenge: Test Cases/RPA Challenge
+
+03-02-2025T11:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Start")): Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:25 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/firstName"), firstName): Text 'John' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:26 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:26 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/lastName"), lastName): Text 'Smith' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:26 - [MESSAGE][PASSED] - Text 'Smith' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:26 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/address"), address): Text '98 North Road' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:27 - [MESSAGE][PASSED] - Text '98 North Road' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:27 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/companyName"), companyName): Text 'IT Solutions' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:28 - [MESSAGE][PASSED] - Text 'IT Solutions' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:28 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/email"), email): Text 'jsmith@itsolutions.co.uk' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:28 - [MESSAGE][PASSED] - Text 'jsmith@itsolutions.co.uk' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:28 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/roleInCompany"), roleInCompany): Text 'Analyst' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:29 - [MESSAGE][PASSED] - Text 'Analyst' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:29 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/phoneNumber"), phoneNumber): Text '40716543298' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:30 - [MESSAGE][PASSED] - Text '40716543298' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:30 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Submit")): Object: 'Object Repository/Button/btn_Submit' is clicked on
+
+03-02-2025T11:58:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RPA Challenge" time="5.692" classname="Test Cases/RPA Challenge" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Jane","lastName":"Dorsey","address":"11 Crown Street","phoneNumber":"40791345621","companyName":"MediCare","roleInCompany":"Medical Engineer","email":"jdorsey@mc.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2025T11:58:30 - [TEST_CASE][PASSED] - Test Cases/RPA Challenge: Test Cases/RPA Challenge
+
+03-02-2025T11:58:30 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Start")): Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:31 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/firstName"), firstName): Text 'Jane' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:31 - [MESSAGE][PASSED] - Text 'Jane' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:31 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/lastName"), lastName): Text 'Dorsey' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:32 - [MESSAGE][PASSED] - Text 'Dorsey' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:32 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/address"), address): Text '11 Crown Street' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:33 - [MESSAGE][PASSED] - Text '11 Crown Street' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:33 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/companyName"), companyName): Text 'MediCare' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:33 - [MESSAGE][PASSED] - Text 'MediCare' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:33 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/email"), email): Text 'jdorsey@mc.com' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:34 - [MESSAGE][PASSED] - Text 'jdorsey@mc.com' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:34 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/roleInCompany"), roleInCompany): Text 'Medical Engineer' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:35 - [MESSAGE][PASSED] - Text 'Medical Engineer' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:35 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/phoneNumber"), phoneNumber): Text '40791345621' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:35 - [MESSAGE][PASSED] - Text '40791345621' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Submit")): Object: 'Object Repository/Button/btn_Submit' is clicked on
+
+03-02-2025T11:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RPA Challenge" time="5.319" classname="Test Cases/RPA Challenge" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Albert","lastName":"Kipling","address":"22 Guild Street","phoneNumber":"40735416854","companyName":"Waterfront","roleInCompany":"Accountant","email":"kipling@waterfront.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2025T11:58:36 - [TEST_CASE][PASSED] - Test Cases/RPA Challenge: Test Cases/RPA Challenge
+
+03-02-2025T11:58:36 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Start")): Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:36 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/firstName"), firstName): Text 'Albert' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:37 - [MESSAGE][PASSED] - Text 'Albert' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:37 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/lastName"), lastName): Text 'Kipling' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:38 - [MESSAGE][PASSED] - Text 'Kipling' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:38 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/address"), address): Text '22 Guild Street' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:38 - [MESSAGE][PASSED] - Text '22 Guild Street' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:38 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/companyName"), companyName): Text 'Waterfront' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:39 - [MESSAGE][PASSED] - Text 'Waterfront' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:39 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/email"), email): Text 'kipling@waterfront.com' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:40 - [MESSAGE][PASSED] - Text 'kipling@waterfront.com' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:40 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/roleInCompany"), roleInCompany): Text 'Accountant' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:40 - [MESSAGE][PASSED] - Text 'Accountant' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:40 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/phoneNumber"), phoneNumber): Text '40735416854' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:41 - [MESSAGE][PASSED] - Text '40735416854' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:41 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Submit")): Object: 'Object Repository/Button/btn_Submit' is clicked on
+
+03-02-2025T11:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RPA Challenge" time="5.741" classname="Test Cases/RPA Challenge" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Michael","lastName":"Robertson","address":"17 Farburn Terrace","phoneNumber":"40733652145","companyName":"MediCare","roleInCompany":"IT Specialist","email":"mrobertson@mc.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2025T11:58:42 - [TEST_CASE][PASSED] - Test Cases/RPA Challenge: Test Cases/RPA Challenge
+
+03-02-2025T11:58:42 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Start")): Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:42 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/firstName"), firstName): Text 'Michael' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:43 - [MESSAGE][PASSED] - Text 'Michael' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:43 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/lastName"), lastName): Text 'Robertson' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:43 - [MESSAGE][PASSED] - Text 'Robertson' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:43 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/address"), address): Text '17 Farburn Terrace' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:44 - [MESSAGE][PASSED] - Text '17 Farburn Terrace' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:44 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/companyName"), companyName): Text 'MediCare' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:45 - [MESSAGE][PASSED] - Text 'MediCare' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:45 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/email"), email): Text 'mrobertson@mc.com' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:46 - [MESSAGE][PASSED] - Text 'mrobertson@mc.com' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:46 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/roleInCompany"), roleInCompany): Text 'IT Specialist' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:46 - [MESSAGE][PASSED] - Text 'IT Specialist' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:46 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/phoneNumber"), phoneNumber): Text '40733652145' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:47 - [MESSAGE][PASSED] - Text '40733652145' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Submit")): Object: 'Object Repository/Button/btn_Submit' is clicked on
+
+03-02-2025T11:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RPA Challenge" time="5.411" classname="Test Cases/RPA Challenge" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Doug","lastName":"Derrick","address":"99 Shire Oak Road","phoneNumber":"40799885412","companyName":"Timepath Inc.","roleInCompany":"Analyst","email":"dderrick@timepath.co.uk"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2025T11:58:47 - [TEST_CASE][PASSED] - Test Cases/RPA Challenge: Test Cases/RPA Challenge
+
+03-02-2025T11:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Start")): Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:48 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/firstName"), firstName): Text 'Doug' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:48 - [MESSAGE][PASSED] - Text 'Doug' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:48 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/lastName"), lastName): Text 'Derrick' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:49 - [MESSAGE][PASSED] - Text 'Derrick' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:49 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/address"), address): Text '99 Shire Oak Road' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:50 - [MESSAGE][PASSED] - Text '99 Shire Oak Road' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:50 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/companyName"), companyName): Text 'Timepath Inc.' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:51 - [MESSAGE][PASSED] - Text 'Timepath Inc.' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:51 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/email"), email): Text 'dderrick@timepath.co.uk' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:51 - [MESSAGE][PASSED] - Text 'dderrick@timepath.co.uk' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:51 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/roleInCompany"), roleInCompany): Text 'Analyst' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:52 - [MESSAGE][PASSED] - Text 'Analyst' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:52 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/phoneNumber"), phoneNumber): Text '40799885412' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:52 - [MESSAGE][PASSED] - Text '40799885412' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:52 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Submit")): Object: 'Object Repository/Button/btn_Submit' is clicked on
+
+03-02-2025T11:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RPA Challenge" time="5.558" classname="Test Cases/RPA Challenge" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Jessie","lastName":"Marlowe","address":"27 Cheshire Street","phoneNumber":"40733154268","companyName":"Aperture Inc.","roleInCompany":"Scientist","email":"jmarlowe@aperture.us"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2025T11:58:53 - [TEST_CASE][PASSED] - Test Cases/RPA Challenge: Test Cases/RPA Challenge
+
+03-02-2025T11:58:53 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Start")): Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:53 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/firstName"), firstName): Text 'Jessie' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:54 - [MESSAGE][PASSED] - Text 'Jessie' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:58:54 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/lastName"), lastName): Text 'Marlowe' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:55 - [MESSAGE][PASSED] - Text 'Marlowe' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:58:55 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/address"), address): Text '27 Cheshire Street' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:56 - [MESSAGE][PASSED] - Text '27 Cheshire Street' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:58:56 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/companyName"), companyName): Text 'Aperture Inc.' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:56 - [MESSAGE][PASSED] - Text 'Aperture Inc.' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:58:56 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/email"), email): Text 'jmarlowe@aperture.us' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:57 - [MESSAGE][PASSED] - Text 'jmarlowe@aperture.us' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:58:57 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/roleInCompany"), roleInCompany): Text 'Scientist' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:58 - [MESSAGE][PASSED] - Text 'Scientist' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:58:58 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/phoneNumber"), phoneNumber): Text '40733154268' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:58 - [MESSAGE][PASSED] - Text '40733154268' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:58:58 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Submit")): Object: 'Object Repository/Button/btn_Submit' is clicked on
+
+03-02-2025T11:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RPA Challenge" time="5.342" classname="Test Cases/RPA Challenge" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Stan","lastName":"Hamm","address":"10 Dam Road","phoneNumber":"40712462257","companyName":"Sugarwell","roleInCompany":"Advisor","email":"shamm@sugarwell.org"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2025T11:58:59 - [TEST_CASE][PASSED] - Test Cases/RPA Challenge: Test Cases/RPA Challenge
+
+03-02-2025T11:58:59 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Start")): Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:58:59 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/firstName"), firstName): Text 'Stan' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:59:00 - [MESSAGE][PASSED] - Text 'Stan' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:59:00 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/lastName"), lastName): Text 'Hamm' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:59:00 - [MESSAGE][PASSED] - Text 'Hamm' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:59:00 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/address"), address): Text '10 Dam Road' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:59:01 - [MESSAGE][PASSED] - Text '10 Dam Road' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:59:01 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/companyName"), companyName): Text 'Sugarwell' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:59:02 - [MESSAGE][PASSED] - Text 'Sugarwell' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:59:02 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/email"), email): Text 'shamm@sugarwell.org' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:59:02 - [MESSAGE][PASSED] - Text 'shamm@sugarwell.org' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:59:02 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/roleInCompany"), roleInCompany): Text 'Advisor' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:59:03 - [MESSAGE][PASSED] - Text 'Advisor' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:59:03 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/phoneNumber"), phoneNumber): Text '40712462257' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:59:04 - [MESSAGE][PASSED] - Text '40712462257' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:59:04 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Submit")): Object: 'Object Repository/Button/btn_Submit' is clicked on
+
+03-02-2025T11:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RPA Challenge" time="5.801" classname="Test Cases/RPA Challenge" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Michelle","lastName":"Norton","address":"13 White Rabbit Street","phoneNumber":"40731254562","companyName":"Aperture Inc.","roleInCompany":"Scientist","email":"mnorton@aperture.us"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2025T11:59:04 - [TEST_CASE][PASSED] - Test Cases/RPA Challenge: Test Cases/RPA Challenge
+
+03-02-2025T11:59:04 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Start")): Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:59:05 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/firstName"), firstName): Text 'Michelle' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:59:06 - [MESSAGE][PASSED] - Text 'Michelle' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:59:06 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/lastName"), lastName): Text 'Norton' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:59:06 - [MESSAGE][PASSED] - Text 'Norton' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:59:06 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/address"), address): Text '13 White Rabbit Street' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:59:07 - [MESSAGE][PASSED] - Text '13 White Rabbit Street' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:59:07 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/companyName"), companyName): Text 'Aperture Inc.' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:59:08 - [MESSAGE][PASSED] - Text 'Aperture Inc.' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:59:08 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/email"), email): Text 'mnorton@aperture.us' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:59:08 - [MESSAGE][PASSED] - Text 'mnorton@aperture.us' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:59:08 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/roleInCompany"), roleInCompany): Text 'Scientist' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:59:09 - [MESSAGE][PASSED] - Text 'Scientist' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:59:09 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/phoneNumber"), phoneNumber): Text '40731254562' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:59:10 - [MESSAGE][PASSED] - Text '40731254562' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:59:10 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Submit")): Object: 'Object Repository/Button/btn_Submit' is clicked on
+
+03-02-2025T11:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RPA Challenge" time="5.403" classname="Test Cases/RPA Challenge" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Stacy","lastName":"Shelby","address":"19 Pineapple Boulevard","phoneNumber":"40741785214","companyName":"TechDev","roleInCompany":"HR Manager","email":"sshelby@techdev.com"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2025T11:59:10 - [TEST_CASE][PASSED] - Test Cases/RPA Challenge: Test Cases/RPA Challenge
+
+03-02-2025T11:59:10 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Start")): Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:59:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:59:11 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/firstName"), firstName): Text 'Stacy' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:59:11 - [MESSAGE][PASSED] - Text 'Stacy' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:59:11 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/lastName"), lastName): Text 'Shelby' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:59:12 - [MESSAGE][PASSED] - Text 'Shelby' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:59:12 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/address"), address): Text '19 Pineapple Boulevard' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:59:13 - [MESSAGE][PASSED] - Text '19 Pineapple Boulevard' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:59:13 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/companyName"), companyName): Text 'TechDev' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:59:13 - [MESSAGE][PASSED] - Text 'TechDev' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:59:13 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/email"), email): Text 'sshelby@techdev.com' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:59:14 - [MESSAGE][PASSED] - Text 'sshelby@techdev.com' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:59:14 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/roleInCompany"), roleInCompany): Text 'HR Manager' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:59:15 - [MESSAGE][PASSED] - Text 'HR Manager' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:59:15 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/phoneNumber"), phoneNumber): Text '40741785214' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:59:15 - [MESSAGE][PASSED] - Text '40741785214' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:59:15 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Submit")): Object: 'Object Repository/Button/btn_Submit' is clicked on
+
+03-02-2025T11:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RPA Challenge" time="5.377" classname="Test Cases/RPA Challenge" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"firstName":"Lara","lastName":"Palmer","address":"87 Orange Street","phoneNumber":"40731653845","companyName":"Timepath Inc.","roleInCompany":"Programmer","email":"lpalmer@timepath.co.uk"}]]></property>
+         </properties>
+         <system-out><![CDATA[03-02-2025T11:59:16 - [TEST_CASE][PASSED] - Test Cases/RPA Challenge: Test Cases/RPA Challenge
+
+03-02-2025T11:59:16 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Start")): Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Start' is clicked on
+
+03-02-2025T11:59:16 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/firstName"), firstName): Text 'Lara' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:59:17 - [MESSAGE][PASSED] - Text 'Lara' is set on object 'Object Repository/Input Form/firstName'
+
+03-02-2025T11:59:17 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/lastName"), lastName): Text 'Palmer' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:59:17 - [MESSAGE][PASSED] - Text 'Palmer' is set on object 'Object Repository/Input Form/lastName'
+
+03-02-2025T11:59:17 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/address"), address): Text '87 Orange Street' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:59:18 - [MESSAGE][PASSED] - Text '87 Orange Street' is set on object 'Object Repository/Input Form/address'
+
+03-02-2025T11:59:18 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/companyName"), companyName): Text 'Timepath Inc.' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:59:19 - [MESSAGE][PASSED] - Text 'Timepath Inc.' is set on object 'Object Repository/Input Form/companyName'
+
+03-02-2025T11:59:19 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/email"), email): Text 'lpalmer@timepath.co.uk' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:59:20 - [MESSAGE][PASSED] - Text 'lpalmer@timepath.co.uk' is set on object 'Object Repository/Input Form/email'
+
+03-02-2025T11:59:20 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/roleInCompany"), roleInCompany): Text 'Programmer' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:59:20 - [MESSAGE][PASSED] - Text 'Programmer' is set on object 'Object Repository/Input Form/roleInCompany'
+
+03-02-2025T11:59:20 - [TEST_STEP][PASSED] - setText(findTestObject("Input Form/phoneNumber"), phoneNumber): Text '40731653845' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:59:21 - [MESSAGE][PASSED] - Text '40731653845' is set on object 'Object Repository/Input Form/phoneNumber'
+
+03-02-2025T11:59:21 - [TEST_STEP][PASSED] - click(findTestObject("Button/btn_Submit")): Object: 'Object Repository/Button/btn_Submit' is clicked on
+
+03-02-2025T11:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Button/btn_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-02-2025T11:58:21 - [TEST_SUITE][PASSED] - RPA Challenge: Test Cases/RPA Challenge]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:54:56,03-02-2025 11:55:10,14.258s,FAILED
+,,,,,,,
+Test Cases/Open Browser,Chrome 132.0.6834.160,,,03-02-2025 11:54:56,03-02-2025 11:55:02,5.813s,PASSED
+"openBrowser(""https://rpachallenge.com/"")",Chrome 132.0.6834.160,,,03-02-2025 11:54:56,03-02-2025 11:55:02,5.659s,PASSED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:55:02,03-02-2025 11:55:03,1.106s,FAILED
+"DATA BINDING - {""firstName"":""John"",""lastName"":""Smith"",""address"":""98 North Road"",""phoneNumber"":""40716543298"",""companyName"":""IT Solutions"",""roleInCompany"":""Analyst"",""email"":""jsmith@itsolutions.co.uk""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:55:02,03-02-2025 11:55:03,0.341s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:55:03,03-02-2025 11:55:03,0.671s,FAILED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:55:03,03-02-2025 11:55:04,0.689s,FAILED
+"DATA BINDING - {""firstName"":""Jane"",""lastName"":""Dorsey"",""address"":""11 Crown Street"",""phoneNumber"":""40791345621"",""companyName"":""MediCare"",""roleInCompany"":""Medical Engineer"",""email"":""jdorsey@mc.com""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:55:03,03-02-2025 11:55:04,0.304s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:55:04,03-02-2025 11:55:04,0.365s,FAILED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:55:04,03-02-2025 11:55:05,0.710s,FAILED
+"DATA BINDING - {""firstName"":""Albert"",""lastName"":""Kipling"",""address"":""22 Guild Street"",""phoneNumber"":""40735416854"",""companyName"":""Waterfront"",""roleInCompany"":""Accountant"",""email"":""kipling@waterfront.com""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:55:04,03-02-2025 11:55:04,0.287s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:55:04,03-02-2025 11:55:05,0.403s,FAILED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:55:05,03-02-2025 11:55:06,0.704s,FAILED
+"DATA BINDING - {""firstName"":""Michael"",""lastName"":""Robertson"",""address"":""17 Farburn Terrace"",""phoneNumber"":""40733652145"",""companyName"":""MediCare"",""roleInCompany"":""IT Specialist"",""email"":""mrobertson@mc.com""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:55:05,03-02-2025 11:55:05,0.310s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:55:05,03-02-2025 11:55:06,0.376s,FAILED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:55:06,03-02-2025 11:55:06,0.688s,FAILED
+"DATA BINDING - {""firstName"":""Doug"",""lastName"":""Derrick"",""address"":""99 Shire Oak Road"",""phoneNumber"":""40799885412"",""companyName"":""Timepath Inc."",""roleInCompany"":""Analyst"",""email"":""dderrick@timepath.co.uk""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:55:06,03-02-2025 11:55:06,0.298s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:55:06,03-02-2025 11:55:06,0.371s,FAILED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:55:06,03-02-2025 11:55:07,0.668s,FAILED
+"DATA BINDING - {""firstName"":""Jessie"",""lastName"":""Marlowe"",""address"":""27 Cheshire Street"",""phoneNumber"":""40733154268"",""companyName"":""Aperture Inc."",""roleInCompany"":""Scientist"",""email"":""jmarlowe@aperture.us""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:55:06,03-02-2025 11:55:07,0.274s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:55:07,03-02-2025 11:55:07,0.380s,FAILED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:55:07,03-02-2025 11:55:08,0.659s,FAILED
+"DATA BINDING - {""firstName"":""Stan"",""lastName"":""Hamm"",""address"":""10 Dam Road"",""phoneNumber"":""40712462257"",""companyName"":""Sugarwell"",""roleInCompany"":""Advisor"",""email"":""shamm@sugarwell.org""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:55:07,03-02-2025 11:55:07,0.321s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:55:07,03-02-2025 11:55:08,0.325s,FAILED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:55:08,03-02-2025 11:55:09,0.709s,FAILED
+"DATA BINDING - {""firstName"":""Michelle"",""lastName"":""Norton"",""address"":""13 White Rabbit Street"",""phoneNumber"":""40731254562"",""companyName"":""Aperture Inc."",""roleInCompany"":""Scientist"",""email"":""mnorton@aperture.us""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:55:08,03-02-2025 11:55:08,0.300s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:55:08,03-02-2025 11:55:09,0.378s,FAILED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:55:09,03-02-2025 11:55:09,0.713s,FAILED
+"DATA BINDING - {""firstName"":""Stacy"",""lastName"":""Shelby"",""address"":""19 Pineapple Boulevard"",""phoneNumber"":""40741785214"",""companyName"":""TechDev"",""roleInCompany"":""HR Manager"",""email"":""sshelby@techdev.com""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:55:09,03-02-2025 11:55:09,0.305s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:55:09,03-02-2025 11:55:09,0.391s,FAILED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:55:09,03-02-2025 11:55:10,0.977s,FAILED
+"DATA BINDING - {""firstName"":""Lara"",""lastName"":""Palmer"",""address"":""87 Orange Street"",""phoneNumber"":""40731653845"",""companyName"":""Timepath Inc."",""roleInCompany"":""Programmer"",""email"":""lpalmer@timepath.co.uk""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:55:09,03-02-2025 11:55:10,0.520s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:55:10,03-02-2025 11:55:10,0.443s,FAILED

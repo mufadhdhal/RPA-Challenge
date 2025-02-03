@@ -1,0 +1,126 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:58:21,03-02-2025 11:59:21,59.856s,PASSED
+,,,,,,,
+Test Cases/Open Browser,Chrome 132.0.6834.160,,,03-02-2025 11:58:21,03-02-2025 11:58:24,2.820s,PASSED
+"openBrowser(""https://rpachallenge.com/"")",Chrome 132.0.6834.160,,,03-02-2025 11:58:22,03-02-2025 11:58:24,2.611s,PASSED
+maximizeWindow(),Chrome 132.0.6834.160,,,03-02-2025 11:58:24,03-02-2025 11:58:24,0.071s,PASSED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:58:24,03-02-2025 11:58:30,5.624s,PASSED
+"DATA BINDING - {""firstName"":""John"",""lastName"":""Smith"",""address"":""98 North Road"",""phoneNumber"":""40716543298"",""companyName"":""IT Solutions"",""roleInCompany"":""Analyst"",""email"":""jsmith@itsolutions.co.uk""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:25,03-02-2025 11:58:25,0.360s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:25,03-02-2025 11:58:26,0.852s,PASSED
+"setText(findTestObject(""Input Form/lastName""), lastName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:26,03-02-2025 11:58:26,0.596s,PASSED
+"setText(findTestObject(""Input Form/address""), address)",Chrome 132.0.6834.160,,,03-02-2025 11:58:26,03-02-2025 11:58:27,0.579s,PASSED
+"setText(findTestObject(""Input Form/companyName""), companyName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:27,03-02-2025 11:58:28,0.620s,PASSED
+"setText(findTestObject(""Input Form/email""), email)",Chrome 132.0.6834.160,,,03-02-2025 11:58:28,03-02-2025 11:58:28,0.743s,PASSED
+"setText(findTestObject(""Input Form/roleInCompany""), roleInCompany)",Chrome 132.0.6834.160,,,03-02-2025 11:58:28,03-02-2025 11:58:29,0.674s,PASSED
+"setText(findTestObject(""Input Form/phoneNumber""), phoneNumber)",Chrome 132.0.6834.160,,,03-02-2025 11:58:29,03-02-2025 11:58:30,0.673s,PASSED
+"click(findTestObject(""Button/btn_Submit""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:30,03-02-2025 11:58:30,0.375s,PASSED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:58:30,03-02-2025 11:58:36,5.692s,PASSED
+"DATA BINDING - {""firstName"":""Jane"",""lastName"":""Dorsey"",""address"":""11 Crown Street"",""phoneNumber"":""40791345621"",""companyName"":""MediCare"",""roleInCompany"":""Medical Engineer"",""email"":""jdorsey@mc.com""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:30,03-02-2025 11:58:31,0.387s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:31,03-02-2025 11:58:31,0.717s,PASSED
+"setText(findTestObject(""Input Form/lastName""), lastName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:31,03-02-2025 11:58:32,0.694s,PASSED
+"setText(findTestObject(""Input Form/address""), address)",Chrome 132.0.6834.160,,,03-02-2025 11:58:32,03-02-2025 11:58:33,0.660s,PASSED
+"setText(findTestObject(""Input Form/companyName""), companyName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:33,03-02-2025 11:58:33,0.668s,PASSED
+"setText(findTestObject(""Input Form/email""), email)",Chrome 132.0.6834.160,,,03-02-2025 11:58:33,03-02-2025 11:58:34,0.688s,PASSED
+"setText(findTestObject(""Input Form/roleInCompany""), roleInCompany)",Chrome 132.0.6834.160,,,03-02-2025 11:58:34,03-02-2025 11:58:35,0.714s,PASSED
+"setText(findTestObject(""Input Form/phoneNumber""), phoneNumber)",Chrome 132.0.6834.160,,,03-02-2025 11:58:35,03-02-2025 11:58:35,0.638s,PASSED
+"click(findTestObject(""Button/btn_Submit""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:35,03-02-2025 11:58:36,0.457s,PASSED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:58:36,03-02-2025 11:58:41,5.319s,PASSED
+"DATA BINDING - {""firstName"":""Albert"",""lastName"":""Kipling"",""address"":""22 Guild Street"",""phoneNumber"":""40735416854"",""companyName"":""Waterfront"",""roleInCompany"":""Accountant"",""email"":""kipling@waterfront.com""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:36,03-02-2025 11:58:36,0.337s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:36,03-02-2025 11:58:37,0.649s,PASSED
+"setText(findTestObject(""Input Form/lastName""), lastName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:37,03-02-2025 11:58:38,0.646s,PASSED
+"setText(findTestObject(""Input Form/address""), address)",Chrome 132.0.6834.160,,,03-02-2025 11:58:38,03-02-2025 11:58:38,0.628s,PASSED
+"setText(findTestObject(""Input Form/companyName""), companyName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:38,03-02-2025 11:58:39,0.640s,PASSED
+"setText(findTestObject(""Input Form/email""), email)",Chrome 132.0.6834.160,,,03-02-2025 11:58:39,03-02-2025 11:58:40,0.728s,PASSED
+"setText(findTestObject(""Input Form/roleInCompany""), roleInCompany)",Chrome 132.0.6834.160,,,03-02-2025 11:58:40,03-02-2025 11:58:40,0.673s,PASSED
+"setText(findTestObject(""Input Form/phoneNumber""), phoneNumber)",Chrome 132.0.6834.160,,,03-02-2025 11:58:40,03-02-2025 11:58:41,0.639s,PASSED
+"click(findTestObject(""Button/btn_Submit""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:41,03-02-2025 11:58:41,0.346s,PASSED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:58:42,03-02-2025 11:58:47,5.741s,PASSED
+"DATA BINDING - {""firstName"":""Michael"",""lastName"":""Robertson"",""address"":""17 Farburn Terrace"",""phoneNumber"":""40733652145"",""companyName"":""MediCare"",""roleInCompany"":""IT Specialist"",""email"":""mrobertson@mc.com""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:42,03-02-2025 11:58:42,0.376s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:42,03-02-2025 11:58:43,0.688s,PASSED
+"setText(findTestObject(""Input Form/lastName""), lastName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:43,03-02-2025 11:58:43,0.676s,PASSED
+"setText(findTestObject(""Input Form/address""), address)",Chrome 132.0.6834.160,,,03-02-2025 11:58:43,03-02-2025 11:58:44,0.696s,PASSED
+"setText(findTestObject(""Input Form/companyName""), companyName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:44,03-02-2025 11:58:45,0.794s,PASSED
+"setText(findTestObject(""Input Form/email""), email)",Chrome 132.0.6834.160,,,03-02-2025 11:58:45,03-02-2025 11:58:46,0.741s,PASSED
+"setText(findTestObject(""Input Form/roleInCompany""), roleInCompany)",Chrome 132.0.6834.160,,,03-02-2025 11:58:46,03-02-2025 11:58:46,0.705s,PASSED
+"setText(findTestObject(""Input Form/phoneNumber""), phoneNumber)",Chrome 132.0.6834.160,,,03-02-2025 11:58:46,03-02-2025 11:58:47,0.641s,PASSED
+"click(findTestObject(""Button/btn_Submit""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:47,03-02-2025 11:58:47,0.392s,PASSED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:58:47,03-02-2025 11:58:53,5.411s,PASSED
+"DATA BINDING - {""firstName"":""Doug"",""lastName"":""Derrick"",""address"":""99 Shire Oak Road"",""phoneNumber"":""40799885412"",""companyName"":""Timepath Inc."",""roleInCompany"":""Analyst"",""email"":""dderrick@timepath.co.uk""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:47,03-02-2025 11:58:48,0.361s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:48,03-02-2025 11:58:48,0.628s,PASSED
+"setText(findTestObject(""Input Form/lastName""), lastName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:48,03-02-2025 11:58:49,0.638s,PASSED
+"setText(findTestObject(""Input Form/address""), address)",Chrome 132.0.6834.160,,,03-02-2025 11:58:49,03-02-2025 11:58:50,0.642s,PASSED
+"setText(findTestObject(""Input Form/companyName""), companyName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:50,03-02-2025 11:58:51,0.765s,PASSED
+"setText(findTestObject(""Input Form/email""), email)",Chrome 132.0.6834.160,,,03-02-2025 11:58:51,03-02-2025 11:58:51,0.677s,PASSED
+"setText(findTestObject(""Input Form/roleInCompany""), roleInCompany)",Chrome 132.0.6834.160,,,03-02-2025 11:58:51,03-02-2025 11:58:52,0.637s,PASSED
+"setText(findTestObject(""Input Form/phoneNumber""), phoneNumber)",Chrome 132.0.6834.160,,,03-02-2025 11:58:52,03-02-2025 11:58:52,0.673s,PASSED
+"click(findTestObject(""Button/btn_Submit""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:52,03-02-2025 11:58:53,0.357s,PASSED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:58:53,03-02-2025 11:58:59,5.558s,PASSED
+"DATA BINDING - {""firstName"":""Jessie"",""lastName"":""Marlowe"",""address"":""27 Cheshire Street"",""phoneNumber"":""40733154268"",""companyName"":""Aperture Inc."",""roleInCompany"":""Scientist"",""email"":""jmarlowe@aperture.us""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:53,03-02-2025 11:58:53,0.341s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:53,03-02-2025 11:58:54,0.653s,PASSED
+"setText(findTestObject(""Input Form/lastName""), lastName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:54,03-02-2025 11:58:55,0.784s,PASSED
+"setText(findTestObject(""Input Form/address""), address)",Chrome 132.0.6834.160,,,03-02-2025 11:58:55,03-02-2025 11:58:56,0.727s,PASSED
+"setText(findTestObject(""Input Form/companyName""), companyName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:56,03-02-2025 11:58:56,0.693s,PASSED
+"setText(findTestObject(""Input Form/email""), email)",Chrome 132.0.6834.160,,,03-02-2025 11:58:56,03-02-2025 11:58:57,0.675s,PASSED
+"setText(findTestObject(""Input Form/roleInCompany""), roleInCompany)",Chrome 132.0.6834.160,,,03-02-2025 11:58:57,03-02-2025 11:58:58,0.673s,PASSED
+"setText(findTestObject(""Input Form/phoneNumber""), phoneNumber)",Chrome 132.0.6834.160,,,03-02-2025 11:58:58,03-02-2025 11:58:58,0.617s,PASSED
+"click(findTestObject(""Button/btn_Submit""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:58,03-02-2025 11:58:59,0.355s,PASSED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:58:59,03-02-2025 11:59:04,5.342s,PASSED
+"DATA BINDING - {""firstName"":""Stan"",""lastName"":""Hamm"",""address"":""10 Dam Road"",""phoneNumber"":""40712462257"",""companyName"":""Sugarwell"",""roleInCompany"":""Advisor"",""email"":""shamm@sugarwell.org""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:58:59,03-02-2025 11:58:59,0.358s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:58:59,03-02-2025 11:59:00,0.621s,PASSED
+"setText(findTestObject(""Input Form/lastName""), lastName)",Chrome 132.0.6834.160,,,03-02-2025 11:59:00,03-02-2025 11:59:00,0.635s,PASSED
+"setText(findTestObject(""Input Form/address""), address)",Chrome 132.0.6834.160,,,03-02-2025 11:59:00,03-02-2025 11:59:01,0.672s,PASSED
+"setText(findTestObject(""Input Form/companyName""), companyName)",Chrome 132.0.6834.160,,,03-02-2025 11:59:01,03-02-2025 11:59:02,0.650s,PASSED
+"setText(findTestObject(""Input Form/email""), email)",Chrome 132.0.6834.160,,,03-02-2025 11:59:02,03-02-2025 11:59:02,0.671s,PASSED
+"setText(findTestObject(""Input Form/roleInCompany""), roleInCompany)",Chrome 132.0.6834.160,,,03-02-2025 11:59:02,03-02-2025 11:59:03,0.639s,PASSED
+"setText(findTestObject(""Input Form/phoneNumber""), phoneNumber)",Chrome 132.0.6834.160,,,03-02-2025 11:59:03,03-02-2025 11:59:04,0.689s,PASSED
+"click(findTestObject(""Button/btn_Submit""))",Chrome 132.0.6834.160,,,03-02-2025 11:59:04,03-02-2025 11:59:04,0.377s,PASSED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:59:04,03-02-2025 11:59:10,5.801s,PASSED
+"DATA BINDING - {""firstName"":""Michelle"",""lastName"":""Norton"",""address"":""13 White Rabbit Street"",""phoneNumber"":""40731254562"",""companyName"":""Aperture Inc."",""roleInCompany"":""Scientist"",""email"":""mnorton@aperture.us""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:59:04,03-02-2025 11:59:05,0.414s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:59:05,03-02-2025 11:59:06,0.762s,PASSED
+"setText(findTestObject(""Input Form/lastName""), lastName)",Chrome 132.0.6834.160,,,03-02-2025 11:59:06,03-02-2025 11:59:06,0.761s,PASSED
+"setText(findTestObject(""Input Form/address""), address)",Chrome 132.0.6834.160,,,03-02-2025 11:59:06,03-02-2025 11:59:07,0.695s,PASSED
+"setText(findTestObject(""Input Form/companyName""), companyName)",Chrome 132.0.6834.160,,,03-02-2025 11:59:07,03-02-2025 11:59:08,0.626s,PASSED
+"setText(findTestObject(""Input Form/email""), email)",Chrome 132.0.6834.160,,,03-02-2025 11:59:08,03-02-2025 11:59:08,0.695s,PASSED
+"setText(findTestObject(""Input Form/roleInCompany""), roleInCompany)",Chrome 132.0.6834.160,,,03-02-2025 11:59:08,03-02-2025 11:59:09,0.702s,PASSED
+"setText(findTestObject(""Input Form/phoneNumber""), phoneNumber)",Chrome 132.0.6834.160,,,03-02-2025 11:59:09,03-02-2025 11:59:10,0.651s,PASSED
+"click(findTestObject(""Button/btn_Submit""))",Chrome 132.0.6834.160,,,03-02-2025 11:59:10,03-02-2025 11:59:10,0.383s,PASSED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:59:10,03-02-2025 11:59:16,5.403s,PASSED
+"DATA BINDING - {""firstName"":""Stacy"",""lastName"":""Shelby"",""address"":""19 Pineapple Boulevard"",""phoneNumber"":""40741785214"",""companyName"":""TechDev"",""roleInCompany"":""HR Manager"",""email"":""sshelby@techdev.com""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:59:10,03-02-2025 11:59:11,0.346s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:59:11,03-02-2025 11:59:11,0.620s,PASSED
+"setText(findTestObject(""Input Form/lastName""), lastName)",Chrome 132.0.6834.160,,,03-02-2025 11:59:11,03-02-2025 11:59:12,0.673s,PASSED
+"setText(findTestObject(""Input Form/address""), address)",Chrome 132.0.6834.160,,,03-02-2025 11:59:12,03-02-2025 11:59:13,0.683s,PASSED
+"setText(findTestObject(""Input Form/companyName""), companyName)",Chrome 132.0.6834.160,,,03-02-2025 11:59:13,03-02-2025 11:59:13,0.630s,PASSED
+"setText(findTestObject(""Input Form/email""), email)",Chrome 132.0.6834.160,,,03-02-2025 11:59:13,03-02-2025 11:59:14,0.725s,PASSED
+"setText(findTestObject(""Input Form/roleInCompany""), roleInCompany)",Chrome 132.0.6834.160,,,03-02-2025 11:59:14,03-02-2025 11:59:15,0.645s,PASSED
+"setText(findTestObject(""Input Form/phoneNumber""), phoneNumber)",Chrome 132.0.6834.160,,,03-02-2025 11:59:15,03-02-2025 11:59:15,0.672s,PASSED
+"click(findTestObject(""Button/btn_Submit""))",Chrome 132.0.6834.160,,,03-02-2025 11:59:15,03-02-2025 11:59:16,0.386s,PASSED
+,,,,,,,
+Test Cases/RPA Challenge,Chrome 132.0.6834.160,,,03-02-2025 11:59:16,03-02-2025 11:59:21,5.377s,PASSED
+"DATA BINDING - {""firstName"":""Lara"",""lastName"":""Palmer"",""address"":""87 Orange Street"",""phoneNumber"":""40731653845"",""companyName"":""Timepath Inc."",""roleInCompany"":""Programmer"",""email"":""lpalmer@timepath.co.uk""}",,,,,,,
+"click(findTestObject(""Button/btn_Start""))",Chrome 132.0.6834.160,,,03-02-2025 11:59:16,03-02-2025 11:59:16,0.390s,PASSED
+"setText(findTestObject(""Input Form/firstName""), firstName)",Chrome 132.0.6834.160,,,03-02-2025 11:59:16,03-02-2025 11:59:17,0.627s,PASSED
+"setText(findTestObject(""Input Form/lastName""), lastName)",Chrome 132.0.6834.160,,,03-02-2025 11:59:17,03-02-2025 11:59:17,0.680s,PASSED
+"setText(findTestObject(""Input Form/address""), address)",Chrome 132.0.6834.160,,,03-02-2025 11:59:17,03-02-2025 11:59:18,0.673s,PASSED
+"setText(findTestObject(""Input Form/companyName""), companyName)",Chrome 132.0.6834.160,,,03-02-2025 11:59:18,03-02-2025 11:59:19,0.668s,PASSED
+"setText(findTestObject(""Input Form/email""), email)",Chrome 132.0.6834.160,,,03-02-2025 11:59:19,03-02-2025 11:59:20,0.685s,PASSED
+"setText(findTestObject(""Input Form/roleInCompany""), roleInCompany)",Chrome 132.0.6834.160,,,03-02-2025 11:59:20,03-02-2025 11:59:20,0.639s,PASSED
+"setText(findTestObject(""Input Form/phoneNumber""), phoneNumber)",Chrome 132.0.6834.160,,,03-02-2025 11:59:20,03-02-2025 11:59:21,0.636s,PASSED
+"click(findTestObject(""Button/btn_Submit""))",Chrome 132.0.6834.160,,,03-02-2025 11:59:21,03-02-2025 11:59:21,0.356s,PASSED
